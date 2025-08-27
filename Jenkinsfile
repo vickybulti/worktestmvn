@@ -29,7 +29,6 @@ pipeline {
                 sh 'mvn package -B'
             }
             }
-        }
 
         stage('Run App') {
             steps {
