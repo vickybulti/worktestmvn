@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         jdk 'jdk-local'
-        maven 'maven-test'
+        maven 'maven-local'
     }
 
     stages {
